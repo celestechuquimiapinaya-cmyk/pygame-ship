@@ -8,9 +8,9 @@ En este curso vamos a aprender a programar en **Python** creando un videojuego d
 
 Antes de escribir código, necesitamos preparar nuestra computadora. Sigue estos sencillos pasos:
 
-1. **Instalar Python**:
-   - Descarga e instala la última versión de Python desde [python.org](https://www.python.org/).
-   - **IMPORTANTE**: Durante la instalación en Windows, asegúrate de marcar la casilla que dice **"Add Python to PATH"** (Añadir Python al PATH).
+1. **Instalar Python 3.12**:
+   - Descarga e instala Python 3.12 desde [python.org](https://www.python.org/).
+   - **IMPORTANTE**: Durante la instalación en Windows, marca la casilla que dice **"Add Python to PATH"** (Añadir Python al PATH) si todavía no lo has hecho.
 
 2. **Crear una carpeta para el proyecto**:
    - Crea una carpeta en tu computadora llamada `mi-juego-pygame`.
@@ -20,6 +20,10 @@ Antes de escribir código, necesitamos preparar nuestra computadora. Sigue estos
    - Abre tu terminal (PowerShell en Windows o Terminal en macOS/Linux), navega a tu carpeta y escribe:
      ```bash
      python -m venv .venv
+     ```
+   - Si tu sistema tiene varias versiones de Python instaladas en Windows, puedes usar:
+     ```powershell
+     py -3.12 -m venv .venv
      ```
    - Activa el entorno virtual:
      - **Windows (PowerShell)**: `.venv\Scripts\Activate.ps1`
